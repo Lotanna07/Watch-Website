@@ -58,4 +58,7 @@ const swiperWatches = new Swiper('.home--swiper', {
 });
 
 
-/*=============== GSAP ANIMATION ===============*/
+/*GSAP ANIMATION */
+GSAP. Form('.home--images', 1.5, {opacity: 0, y:150, delay:.1})
+GSAP.Form('.home--data', 1.8, {opacity: 0, x:-100, delay:.8})
+GSAP.Form('.home--info', 1.8, {opacity: 0, x:-100, delay:1})
